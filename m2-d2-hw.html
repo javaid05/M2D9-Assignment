@@ -270,6 +270,66 @@ In this section you should have:
         </div>
       </div>
     </section>
+<!-- EXERCISE 4
+        Create a new section with an album tracklist inside a Bootstrap table.
+        The row colors of the table must be alternated.
+
+        There should be a column for the track order number, one for the title and one for the track duration.
+        (If you want, you can also add extra columns)
+    -->
+    <!--   implement the table -->
+    <div class="container">
+    <h3 class="mt-5">Here's a Favourit album </h3>
+    <div class="container">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Track no.</th>
+                            <th scope="col">Song Title</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Composer</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Black Holes</td>
+                            <td>empty</td>
+                            <td>Muse</td>
+                            <td><button type="button" class="btn btn-danger delete-track-btn"
+                            >Detele</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>End of Aquarius</td>
+                            <td>empty</td>
+                            <td>Droit</td>
+                            <td><button type="button" class="btn btn-danger delete-track-btn"
+                            >Delete</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Crystal Castles</td>
+                            <td>empty</td>
+                            <td>Power</td>
+                            <td><button type="button" class="btn btn-danger delete-track-btn"
+                            >Delete</button></td></td>
+                        </tr>
+                            
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>It Takes a Thief</td>
+                            <td>empty</td>
+                            <td>Thivory Corporation</td>
+                            <td><button type="button" class="btn btn-danger delete-track-btn"
+                            >Delete</button></td>
+                        </tr>
+                        
+                  </tbody>
+                </table>
+                </div>
+                <div>
 
     <!-- EXERCISE 4
 Create a section for the album review.
